@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-hdpi-v4\\values-large-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "10,6,8,9,7,5,3,4",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "405,206,307,355,256,157,58,107",
+                        "endColumns": "50,49,47,49,50,48,48,49",
+                        "endOffsets": "451,251,350,400,302,201,102,152"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,156,204,254,305,354,403",
+                        "endColumns": "50,49,47,49,50,48,48,49",
+                        "endOffsets": "101,151,199,249,300,349,398,448"
+                    }
+                }
+            ]
+        }
+    ]
+}

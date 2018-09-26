@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formIPTVLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">-->
+   <!-- <TextView
+        android:id="@+id/formIPTVSpinnerHeader"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPTV model" />
+
+    <Spinner
+        android:id="@+id/cpeSTBModelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@mipmap/spinner_bg" />-->
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iptv_serial_number_text" />
+
+    <EditText
+        android:id="@+id/formIPTVSerialNoEditText"
+        style="@style/customEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/iptv_serial_number_hint"
+        android:imeOptions="actionNext"
+        android:inputType="text|textVisiblePassword"
+        android:maxLength="20" />
+
+
+   <!-- <TextView
+        android:id="@+id/iptvPackageHeader"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPTV Box Package*" />
+
+    <TextView
+        android:id="@+id/iptvPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@mipmap/spinner_bg"
+        android:gravity="left|center"
+        android:text="&#45;&#45;Select&#45;&#45;" />-->
+</LinearLayout>

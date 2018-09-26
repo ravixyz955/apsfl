@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\new_caf_form_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\new_caf_form_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_voip_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\activity_voip_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\product_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\product_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mandal_activity_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\mandal_activity_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\caf_results_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\caf_results_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\activity_main_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\payment_entry_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\payment_entry_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pop_name_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\pop_name_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\feasibility_check_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\feasibility_check_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\enterprise_customer_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\enterprise_customer_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_caf_menu.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\menu\\search_caf_menu.xml"
+    }
+]

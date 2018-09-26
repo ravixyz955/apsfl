@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/previousSubmitLayout"
+        layout="@layout/layout_previous_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/previousSubmitLayout"
+        android:fillViewport="true"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_proof_header" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_proof_text" />
+
+            <Spinner
+                android:id="@+id/identityProofSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_doc_number_text" />
+
+            <EditText
+                android:id="@+id/identityDocNo"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/alphabets_digits"
+                android:hint="@string/identity_doc_number_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_issue_authority_text" />
+
+            <EditText
+                android:id="@+id/identityAuthority"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/only_alphabets"
+                android:hint="@string/identity_issue_authority_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_place_issue_text" />
+
+            <EditText
+                android:id="@+id/identityPlace"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/only_alphabets"
+                android:hint="@string/identity_place_issue_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/identity_date_issue_text" />
+
+                <TextView
+                    android:id="@+id/identityProofDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:drawableEnd="@mipmap/rsz_calendar_image"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/rsz_calendar_image"
+                    android:gravity="center|end"
+                    android:padding="8dp"
+                    android:text="@string/identity_date_issue_hint"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address_proof_header" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address_proof_text" />
+
+            <Spinner
+                android:id="@+id/addressProofSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_doc_number_text" />
+
+            <EditText
+                android:id="@+id/addressDocNo"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/alphabets_digits"
+                android:hint="@string/identity_doc_number_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_issue_authority_text" />
+
+            <EditText
+                android:id="@+id/addressAuthority"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/only_alphabets"
+                android:hint="@string/identity_issue_authority_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identity_place_issue_text" />
+
+            <EditText
+                android:id="@+id/addressPlace"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/only_alphabets"
+                android:hint="@string/identity_place_issue_hint"
+                android:imeOptions="actionDone"
+                android:inputType="text|textVisiblePassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/identity_date_issue_text" />
+
+                <TextView
+                    android:id="@+id/addressProofDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:drawableEnd="@mipmap/rsz_calendar_image"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/rsz_calendar_image"
+                    android:gravity="center|end"
+                    android:padding="8dp"
+                    android:text="@string/identity_date_issue_hint"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/formCustomerDeclaration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/customer_declaration"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/formLMODeclaration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/lmo_declaration"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

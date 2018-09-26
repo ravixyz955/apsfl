@@ -1,0 +1,752 @@
+<resources>
+    <string name="app_name">APSFL</string>
+
+    <!-- Login screen strings !-->
+    <string name="government_of_ap">Government of Andhra Pradesh</string>
+    <string name="state_fiber_limited">State FiberNet Limited</string>
+    <string name="login_username_hint">Enter Username</string>
+    <string name="login_password_hint">Enter Password</string>
+    <string name="login_button_hint">Sign In</string>
+    <string name="remember_me_hint">Remember me</string>
+    <string name="login_copyrights">Copyright &#169; 2016. Core Services, All rights reserved</string>
+
+    <!-- Screen Titles !-->
+    <string name="activity_main_title">APSFL Mobile</string>
+    <string name="activity_caf_title">New CAF Form</string>
+    <string name="activity_search_caf_title">Search Existing CAF</string>
+    <string name="activity_caf_results_title">CAF Search Results</string>
+    <string name="activity_select_services_title">Select Services</string>
+    <string name="activity_select_enterprise_customer_title">Select Customer</string>
+    <string name="activity_selected_product_services_title">Selected Packages</string>
+    <string name="activity_select_mandal_title">Select Mandal</string>
+    <string name="activity_select_village_title">Select Village</string>
+    <string name="activity_select_pop_title">Select POP</string>
+    <string name="activity_offline_forms_title">Pending Forms</string>
+    <string name="activity_payments_title">Monthly Payments</string>
+    <string name="activity_payment_entry_title">Payment Entry</string>
+    <string name="activity_feasibility_check_title">Work Order and Payment</string>
+    <string name="activity_selected_cpe_title">CPE Charge Details</string>
+    <string name="activity_otp_title">Enter OTP</string>
+
+    <!-- Fragment Screen Titles !-->
+    <string name="fragment_customer_info_title">Customer Information</string>
+    <string name="fragment_cpe_info_title">CPE Information</string>
+    <string name="fragment_address_info_title">Installation Address</string>
+    <string name="fragment_base_package_title">Base Packages</string>
+    <string name="fragment_add_on_package_title">Add On Packages</string>
+    <string name="fragment_one_time_package_title">One-Time Packages</string>
+    <string name="fragment_telephone_service_title">Telephone Feature</string>
+    <string name="Error">Error</string>
+    <string name="slotalready_assigned_message">Slot is already assigned. Please try another one.</string>
+
+    <!--  Main Activity Strings!-->
+    <string name="submit_new_individual_form">Individual CAF</string>
+    <string name="submit_new_enterprise_form">Enterprise CAF</string>
+    <string name="search_existing_caf_text">Search CAF</string>
+    <string name="make_payments_text">Monthly Payments</string>
+    <string name="make_bulk__payments_text">Bulk Monthly Payments</string>
+    <string name="pending_forms_text">Pending CAF Forms</string>
+    <string name="main_menu_text">Logout</string>
+    <string name="no_forms_message">No forms to display</string>
+    <string name="form_submission_date_text">Submitted On</string>
+    <string name="form_submission_status_text">Status</string>
+    <string name="form_select_package_text">Select Packages</string>
+    <string name="form_submit_text">Submit CAF</string>
+    <string name="form_edit_text">Edit CAF</string>
+
+    <!-- New CAF Menu  !-->
+    <string name="caf_form_menu_text">Submit</string>
+
+    <!-- Product Screen Menu  !-->
+    <string name="product_menu_text">Next</string>
+
+    <!-- Search CAF Screen Menu  !-->
+    <string name="search_caf_menu_text">Search</string>
+
+    <!-- CAF Results Screen Menu  !-->
+    <string name="menu_done">Done</string>
+
+    <string name="menu_add">Add</string>
+
+    <!-- Feasibility Screen Menu  !-->
+    <string name="feasibility_menu_submit">Submit</string>
+
+    <!-- Strings for new CAF Form !-->
+    <string name="CAF_number_text">Generating CAF Number</string>
+    <string name="lmo_name_text">Name</string>
+    <string name="lmo_wallet_text">Wallet</string>
+    <string name="lmo_credit_text">Credit Limit</string>
+    <string name="lmo_remaining_text">Remaining Limit</string>
+    <string name="aadhaar_number_text">Aadhaar No/Register No*</string>
+    <string name="aadhaar_number_hint">Enter Aadhaar Number</string>
+    <string name="aadhaar_number_button_text">Retrieve</string>
+    <string name="services_label_text">Select Service*</string>
+    <string name="product_label_text">Select Product*</string>
+    <string name="cable_service_text">VAS</string>
+    <string name="internet_service_text">IS</string>
+    <string name="vod_service_text">IPTV</string>
+    <string name="voip_service_text">VOIP</string>
+    <string-array name="service_spinner_items">
+        <item>@string/cable_service_text</item>
+        <item>@string/internet_service_text</item>
+        <item>@string/vod_service_text</item>
+        <item>@string/voip_service_text</item>
+    </string-array>
+    <string-array name="product_spinner_items">
+        <item>Select Product</item>
+        <item>Product 1</item>
+        <item>Product 2</item>
+        <item>Product 3</item>
+        <item>Product 4</item>
+    </string-array>
+    <string name="bill_cycle_text">Bill Cycle*</string>
+    <string-array name="bill_cycle_spinner_items">
+        <item>--Select--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="bill_frequency_text">Bill Frequency*</string>
+    <string name="segment_text">Segment</string>
+    <string name="channel_text">Channel</string>
+    <string name="pop_name_text">POP Name*</string>
+    <string name="olt_id_text">OLT ID*</string>
+    <string name="olt_port_id_text">OLT Port-ID*</string>
+    <string name="olt_port_level1_text">Level-1 Slot*</string>
+    <string name="olt_port_level2_text">Level-2 Slot*</string>
+    <string name="olt_port_level3_text">Level-3 Slot*</string>
+    <string name="pop_districts_text">Installation District*</string>
+    <string name="pop_mandals_text">Installation Mandal*</string>
+    <string name="cpe_serial_number_text">ONU Serial Number*</string>
+    <string name="device_id_text_hint">Enter ONU Serial Number</string>
+    <string name="cpe_onu_mac_address_text">ONU Mac-Id*</string>
+    <string name="cpe_stb_mac_address_hint">Enter ONU Mac-Id</string>
+    <string name="cpe_model_text">ONU Model*</string>
+    <string name="cpe_stb_model_optional_text">IPTV Box Model</string>
+    <string name="cpe_stb_model_mandatory_text">IPTV Box Model*</string>
+    <string name="cpe_lease_text">ONU Own*</string>
+    <string name="cpe_stb_lease_text">IPTV Box Own*</string>
+    <string name="cpe_lease_yes">YES</string>
+    <string name="cpe_lease_no">NO</string>
+    <string name="cpe_if_lease_text">No Of ONU EMI*</string>
+    <string name="cpe_price_rental_text">ONU Upfront Price*</string>
+    <string name="cpe_installments_text">ONU EMI Price*</string>
+    <string name="iptv_installments_text">IPTV Box EMI Price*</string>
+    <string name="cpe_installments_hint">IPTV Box EMI Price</string>
+    <string name="iptv_installments_hint">IPTV Box Price/Installment</string>
+    <string name="cpe_price_rental_hint">ONU Price/Installment</string>
+    <string name="cpe_stb_if_lease_text">No Of IPTV Box EMI*</string>
+    <string name="cpe_stb_price_rental_text">IPTV Box Upfront Price*</string>
+    <string name="cpe_stb_price_rental_hint">IPTV Box Upfront Price*</string>
+    <string name="iptv_serial_number_text">IPTV Box Serial Number*</string>
+    <string name="iptv_serial_number_hint">Enter IPTV Box Serial Number</string>
+    <string name="iptv_box_mac_id_text">IPTV Box Mac-Id*</string>
+    <string name="iptv_box_mac_id_hint">Enter IPTV Box Mac-Id</string>
+    <string name="cpe_installation_text">Installation Charge*</string>
+    <string name="cpe_installation_hint">Enter Installation Charge</string>
+    <string name="cpe_extra_cable_charge_text">Extra Cable Charge*</string>
+    <string name="cpe_extra_cable_charge_hint">Enter extra cable charge</string>
+    <string name="longitude_text">Longitude</string>
+    <string name="longitude_hint">Enter longitude</string>
+    <string name="latitude_text">Latitude</string>
+    <string name="latitude_hint">Enter latitude</string>
+    <string name="location_text">CPE Device Location*</string>
+    <string name="location_hint">Enter location</string>
+    <string-array name="onu_device_spinner_items">
+        <item>--Select--</item>
+        <item>Purchase</item>
+        <item>Installment</item>
+    </string-array>
+    <string-array name="stb_device_spinner_items">
+        <item>--Select--</item>
+        <item>Purchase</item>
+        <item>Installment</item>
+    </string-array>
+    <string-array name="olt_port_id_spinner_items">
+        <item>--Select--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="tele_conn_count_spinner_items">
+        <item>--Select--</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="customer_type_text">Select customer type*</string>
+    <string name="pan_id_text">PAN Number</string>
+    <string name="pan_id_hint">Enter PAN Number</string>
+    <string name="tan_number_text">TAN Number</string>
+    <string name="tan_number_hint">Enter TAN Number</string>
+    <string name="name_title_text">Title*</string>
+    <string name="name_title_mr">Mr.</string>
+    <string name="name_title_mrs">Mrs.</string>
+    <string name="name_title_ms">Ms.</string>
+    <string name="first_name_text">First Name/Organization Name*</string>
+    <string name="first_name_hint">Enter first name</string>
+    <string name="middle_name_text">Middle Name</string>
+    <string name="middle_name_hint">Enter middle name</string>
+    <string name="last_name_text">Surname*</string>
+    <string name="last_name_hint">Enter last name</string>
+    <string name="dob_text">Date of Birth/Incorporation*</string>
+    <string name="dob_text_hint">Select date</string>
+    <string name="gender_text">Gender*</string>
+    <string name="gender_male_text">M</string>
+    <string name="gender_female_text">F</string>
+    <string name="father_husband_text">Father\'s/Husband\'s Name</string>
+    <string name="father_husband_hint">Enter father\'s or husband\'s name</string>
+    <string name="installation_address_text">Installation Address</string>
+    <string name="address1_text">Building/House/Flat*</string>
+    <string name="address2_text">Street</string>
+    <string name="address_hint">Enter Address</string>
+    <string name="street_address_hint">Enter street address/villageName</string>
+    <string name="locality_address_text">Locality/Area*</string>
+    <string name="locality_address_hint">Enter locality</string>
+    <string name="area_address_text">District*</string>
+    <string name="area_address_hint">Enter district</string>
+    <string name="city_district_text">Installation City/Village*</string>
+    <string name="city_district_hint">Enter villageName/villageName</string>
+    <string name="state_ut_text">State*</string>
+    <string name="state_ut_hint">Enter state</string>
+    <string name="state_ut_field_value">Andhra Pradesh</string>
+    <string name="pin_code_text">Pin Code*</string>
+    <string name="pin_code_hint">Enter pin code</string>
+    <string name="mobile_number_text">Mobile Number*</string>
+    <string name="mobile1_number_text">Alternate Mobile Number</string>
+    <string name="mobile_number_hint">Enter mobile number</string>
+    <string name="land_line_number_text">Land Line Number</string>
+    <string name="std_code_hint">Enter STD code</string>
+    <string name="land_line_number_hint">Enter land line number</string>
+    <string name="email_address_text">Email</string>
+    <string name="email_address_hint">Enter email address</string>
+    <string name="contact_person_text">Name of Contact Person</string>
+    <string name="contact_person_mandatory_text">Name of Contact Person*</string>
+    <string name="contact_person_hint">Enter name</string>
+    <string name="identity_proof_header">Proof Of Identity (POI)</string>
+    <string name="identity_proof_text">POI</string>
+    <string name="address_proof_header">Proof Of Address (POA)</string>
+    <string name="address_proof_text">POA</string>
+    <string name="identity_doc_number_text">Document Number</string>
+    <string name="identity_issue_authority_text">Issuing Authority</string>
+    <string name="identity_place_issue_text">Place of Issue</string>
+    <string name="identity_date_issue_text">Date of Issue</string>
+    <string name="dd_date_issue_text">Date*</string>
+    <string name="identity_doc_number_hint">Enter document number</string>
+    <string name="identity_issue_authority_hint">Enter issuing authority</string>
+    <string name="identity_place_issue_hint">Enter place of issue</string>
+    <string name="identity_date_issue_hint">Select date of issue</string>
+    <string-array name="identity_spinner_items">
+        <item>--Select--</item>
+        <item>AADHAAR</item>
+        <item>PAN CARD</item>
+        <item>VOTER ID</item>
+        <item>PASSPORT</item>
+        <item>ID CARD GOVT.</item>
+    </string-array>
+    <string-array name="name_title_spinner_items">
+        <item>--Select--</item>
+        <item>@string/name_title_mr</item>
+        <item>@string/name_title_mrs</item>
+        <item>@string/name_title_ms</item>
+    </string-array>
+    <string-array name="address_spinner_items">
+        <item>--Select--</item>
+        <item>AADHAAR</item>
+        <item>VOTER ID</item>
+        <item>PASSPORT</item>
+        <item>ELECTRICITY BILL</item>
+        <item>WATER BILL</item>
+        <item>GAS CONNECTION</item>
+        <item>RATION CARD</item>
+        <item>BANK PASSBOOK</item>
+    </string-array>
+    <string name="customer_declaration">Customer Declaration</string>
+    <string name="lmo_declaration">LMO Declaration</string>
+
+    <!-- Select Services Screen Strings !-->
+    <string name="service_heading_text">Services List</string>
+
+
+    <!-- Select Product Screen Strings !-->
+    <string name="product_list_text">Products List</string>
+    <string name="product_search_text">Type to search for packages</string>
+    <string name="no_packages_message">No packages to display</string>
+
+    <string name="no_data_message">No data to display</string>
+
+    <!-- Selected POP name Strings !-->
+    <string name="pop_name_search_text">Type to search</string>
+    <string name="no_pop_names_message">No results to display</string>
+
+    <!-- Search Payments Screen Strings !-->
+    <string name="search_mobile_heading_text">Mobile Number</string>
+    <string name="search_button_payment_text">Search</string>
+    <string name="no_payments_message">No payments to display</string>
+    <string name="payment_customer_name">Customer Name</string>
+    <string name="payment_aadhaar_number">Aadhaar Number</string>
+    <string name="payment_caf_number">CAF Number</string>
+    <string name="payment_packages">Packages</string>
+    <string name="payment_total_charge">Total Charge</string>
+
+
+    <string name="no_features_message">No data to display</string>
+
+
+    <!-- Make Payments Screen Strings  !-->
+    <string name="payment_caf_heading">CAF Number</string>
+    <string name="payment_aadhaar_heading">Aadhaar Number/Registration Number</string>
+    <string name="payment_customer_name_heading">Customer Name/Organization Name</string>
+    <string name="payment_payable_amount_heading">Total Payable Amount</string>
+    <string name="payment_mode_heading">Payment Mode*</string>
+    <string name="payment_amount_heading">Amount*</string>
+    <string name="payment_amount_hint">Amount to be paid</string>
+
+    <!-- Search CAF Screen Strings !-->
+    <string name="search_caf_from_date">From Date</string>
+    <string name="search_caf_to_date">To Date</string>
+    <string name="search_caf_from_date_hint">Select from date</string>
+    <string name="search_caf_to_date_hint">Select to date</string>
+    <string name="search_caf_status">Status</string>
+    <string name="search_caf_status_0">--Select--</string>
+    <string name="search_caf_status_1">PENDING FOR SELECT PACKAGES</string>
+    <string name="search_caf_si_status_1">FAILED CONNECTIONS</string>
+    <string name="search_caf_status_2">PENDING FOR PROVISIONING</string>
+    <string name="search_caf_status_3">REJECTED</string>
+    <string name="search_caf_status_4">ACTIVE</string>
+    <string name="search_caf_status_5">PENDING FOR CAF EDIT</string>
+    <string-array name="caf_status_spinner_items">
+        <item>@string/search_caf_status_0</item>
+        <item>@string/search_caf_status_1</item>
+        <item>@string/search_caf_status_2</item>
+        <item>@string/search_caf_status_3</item>
+        <item>@string/search_caf_status_4</item>
+    </string-array>
+    <!--<item>@string/search_caf_si_status_1</item>-->
+    <string-array name="caf_status_spinner_items_SILMO">
+        <item>@string/search_caf_status_0</item>
+        <item>@string/search_caf_status_2</item>
+        <item>@string/search_caf_status_4</item>
+        <item>@string/search_caf_status_5</item>
+    </string-array>
+    <string name="search_caf_aadhaar_text">Aadhar/Registration</string>
+    <string name="search_caf_aadhaar_hint">Enter Aadhaar/Registration Number</string>
+    <string name="search_caf_text">CAF No</string>
+    <string name="search_caf_cpe_model_text">CPE Model</string>
+    <string name="search_caf_hint">Enter CAF Number</string>
+    <string name="invalid_caf_title">Invalid CAF Number</string>
+    <string name="empty_caf_message">CAF number cannot be empty</string>
+    <string name="invalid_dd_no_title">Invalid DD Number</string>
+    <string name="empty_dd_no_message">DD number cannot be empty</string>
+    <string name="invalid_dd_bank_title">Invalid Bank Name</string>
+    <string name="empty_dd_bank_message">Bank name cannot be empty</string>
+    <string name="invalid_dd_branch_title">Invalid Branch Name</string>
+    <string name="empty_dd_branch_message">Branch name cannot be empty</string>
+    <string name="invalid_dd_date_title">Invalid DD Date</string>
+    <string name="invalid_dd_date_message">Please enter a valid date of issue for DD</string>
+
+    <!-- CAF adapter row Strings !-->
+    <string name="results_caf_customer_name">Customer Name</string>
+    <string name="results_caf_text">CAF No</string>
+    <string name="results_caf_mac_address">MAC Address</string>
+    <string name="results_caf_date">CAF Date</string>
+    <string name="results_caf_products">Package Name</string>
+    <string name="results_caf_total_charges">Total Charge</string>
+    <string name="results_caf_status">Status</string>
+
+    <!-- Products List Adapter row Strings !-->
+    <string name="product_row_package_text">Package Type</string>
+    <string name="product_row_name_text">Package Name</string>
+    <string name="product_row_code_text">Package Code</string>
+    <string name="product_row_security_text">Security Deposit</string>
+    <string name="product_row_activation_text">Activation Charge</string>
+    <string name="product_row_recurring_text">Recurring Charge</string>
+    <string name="product_row_tax_text">Tax</string>
+    <string name="product_row_total_text">Total</string>
+    <string name="product_row_date_text">Effective from</string>
+    <string name="product_row_msp_text">MSP Name</string>
+    <string name="product_row_security_deposit">Security</string>
+    <string name="product_row_activation_charge">Activation</string>
+    <string name="product_row_rental_charge">Rental</string>
+    <string name="product_row_service_name_text">Service Name</string>
+    <string name="product_row_lock_period_text">Lock in period</string>
+    <string name="product_row_total_charge_text">Total Charge</string>
+    <string name="product_row_show_info_text">Show Info</string>
+    <string name="product_row_hide_info_text">Hide Info</string>
+
+    <!-- Selected CPE Screen Strings !-->
+    <string name="cpe_row_model_name">Model Name</string>
+    <string name="cpe_row_model_type">Model Type</string>
+    <string name="cpe_row_purchase_cost">Box Charge(Rs)</string>
+    <string name="cpe_row_installment_cost">Installment (Rs)</string>
+
+    <!-- Selected Products and Services Screen Strings !-->
+    <string name="selected_products_services_next_screen">Proceed to New CAF Entry</string>
+
+    <!-- Feasibility Screen Strings !-->
+    <string name="fease_caf_text">CAF Number</string>
+    <string name="fease_aadhaar_text">Aadhaar Number/Register Number</string>
+    <string name="fease_customer_text">Customer Name</string>
+    <string name="fease_customer_first_name">Customer First Name/Organization Name</string>
+    <string name="fease_customer_last_name">Customer Surname</string>
+    <string name="fease_onu_model_name">ONU Model</string>
+    <string name="fease_onu_serial_number">ONU Serial Number</string>
+    <string name="fease_onu_mac_address">ONU Mac-Address</string>
+    <string name="fease_iptv_model_name">IPTV Box Model</string>
+    <string name="fease_iptv_serial_number">IPTV Box Serial Number</string>
+    <string name="fease_iptv_mac_id">IPTV Box Mac-Address</string>
+    <string name="fease_packages_text">Selected Packages Details</string>
+    <string name="fease_cpe_charges_text">CPE Charge Details</string>
+    <string name="fease_mac_text">MAC Address</string>
+    <string name="fease_cpe_text">CPE ID</string>
+    <string name="fease_lock_months_text">Lock-in Months</string>
+    <string name="fease_total_charge_text">Total Payable Amount</string>
+    <string name="fease_total_tax_text">Total Tax</string>
+    <string name="fease_effective_date_text">Effective Date</string>
+    <string name="fease_bill_frequency_text">Bill Frequency</string>
+    <string name="fease_check_text">Feasibility Check</string>
+    <string name="fease_check_yes_text">YES</string>
+    <string name="fease_check_no_text">NO</string>
+    <string name="fease_payment_text">Payment Mode</string>
+    <string name="fease_payment_mode0">--Select--</string>
+    <string name="fease_payment_cash">CASH</string>
+    <string name="fease_payment_dd">DD</string>
+    <!--<string name="fease_payment_mode2">CARD</string>-->
+    <string-array name="cash_mode_spinner_items">
+        <item>@string/fease_payment_mode0</item>
+        <item>@string/fease_payment_cash</item>
+        <!--<item>@string/fease_payment_mode2</item>-->
+    </string-array>
+    <string name="fease_amount_text">Amount*</string>
+    <string name="fease_amount_hint">Enter amount</string>
+    <string name="payment_success_title">Payment Successful</string>
+    <string name="payment_success_message">Your payment was successful</string>
+    <string name="payment_success_title_si">Order Successful</string>
+    <string name="payment_success_message_si">Your Order was successful</string>
+    <string name="payment_failure_title">Payment Failed</string>
+    <string name="payment_failure_title_si">Order Failed</string>
+    <string name="payment_failure_message_si">Your Order was unsuccessful. Please try again</string>
+    <string name="payment_failure_message">Your Payment was unsuccessful. Please try again</string>
+
+    <string name="fease_dd_number_text">DD No*</string>
+    <string name="fease_dd_number_hint">Enter DD number</string>
+    <string name="fease_dd_bank_text">Drawn on Bank*</string>
+    <string name="fease_dd_bank_hint">Enter bank name</string>
+    <string name="fease_dd_branch_text">Branch*</string>
+    <string name="fease_dd_branch_hint">Enter branch</string>
+
+    <!-- Screen Names to display in CAF Form  !-->
+    <string name="customer_info_screen_name">Customer Info</string>
+    <string name="customer_cpe_screen_name">CPE Info</string>
+    <string name="customer_address_screen_name">Address Info</string>
+    <string name="select_packages_screen_name">Select Packages</string>
+
+    <string name="next_screen_text">NEXT</string>
+    <string name="previous_screen_text">PREVIOUS</string>
+    <string name="submit_screen_text">SUBMIT</string>
+    <string name="submit_form_text">Form</string>
+
+    <!--  Messages for progress dialogs !-->
+    <string name="progress_dialog_title">Please Wait</string>
+    <string name="logging_in">Logging in</string>
+    <string name="progress_login_success_title">Login Successful</string>
+    <string name="progress_getting_data_message">Getting user data</string>
+    <string name="progress_syncing_master_data">Sync is in progress</string>
+    <string name="getting_core_services">Getting services list</string>
+    <string name="getting_customer_data">Getting customers list</string>
+    <string name="generating_caf_number">Generating CAF number</string>
+    <string name="getting_details_aadhaar">Getting information</string>
+    <string name="submitting_caf_form">Submitting form</string>
+    <string name="submitting_caf_payment">Processing payment</string>
+    <string name="processing_request">Processing request</string>
+    <string name="getting_payment_list">Getting Payments Data</string>
+
+    <!-- Messages displayed in alert dialog !-->
+    <string name="login_username_invalid_title">Invalid username</string>
+    <string name="login_password_invalid_title">Invalid password</string>
+    <string name="login_username_empty_message">Username cannot be empty</string>
+    <string name="login_password_empty_message">Password cannot be empty</string>
+    <string name="login_username_invalid_message">Please enter valid user name</string>
+    <string name="login_password_invalid_message">Please enter valid password</string>
+    <string name="login_failed_title">Login Failed</string>
+    <string name="login_failed_message">Please enter valid username and password</string>
+    <string name="login_wrong_credentials_message">Username or password do not match</string>
+    <string name="no_service_selected_title">No service selected</string>
+    <string name="no_service_selected_message">Please select atleast one service</string>
+    <string name="no_customer_selected_title">No customer selected</string>
+    <string name="no_customer_selected_message">Please select a customer</string>
+    <string name="no_package_selected_title">No package selected</string>
+    <string name="no_package_selected_message">Please select a package</string>
+    <string name="request_failure_title">Request Failed</string>
+    <string name="request_failure_message">Unable to process your request. Please try again later</string>
+    <string name="request_success_title">Success</string>
+    <string name="request_success_message">Your request was successfully processed</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+    <string name="no_internet_title">No Internet Connection</string>
+    <string name="no_internet_message">An active internet connection is required. Please check your connection settings</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_ok">OK</string>
+    <string name="gps_not_enabled_title">GPS is disabled</string>
+    <string name="gps_not_enabled_message">GPS is disabled. Do you want to enable it?</string>
+    <string name="open_location_settings">OPEN LOCATION SETTINGS</string>
+    <string name="confirm_action_title">Confirm your action</string>
+    <string name="user_logout_message">Do you want to logout?</string>
+    <string name="discard_form_message">Any changes made to this form will be lost. Are you sure you want to leave?</string>
+    <string name="caf_form_saved_title">Form saved successfully</string>
+    <string name="caf_form_saved_no_internet">CAF form has been saved. We will process your request once there is an active internet connection</string>
+    <string name="caf_form_saved_request_failed">There was a problem while processing your request. We shall try processing your request later</string>
+
+    <!-- New CAF Form error titles and messages !-->
+    <string name="invalid_customer_type_title">Invalid Customer Type</string>
+    <string name="invalid_customer_type_message">Please select a valid customer type</string>
+    <string name="invalid_aadhaar_title">Invalid Aadhaar Number</string>
+    <string name="empty_aadhaar_message">Aadhaar number cannot be empty</string>
+    <string name="invalid_aadhaar_message">Please enter a valid aadhaar number</string>
+    <string name="invalid_registration_number_title">Invalid Aadhaar/Registration Number</string>
+    <string name="empty_registration_number_message">Registration number cannot be empty</string>
+    <string name="invalid_registration_number_message">Please enter a valid aadhar/registration number</string>
+    <string name="no_results_aadhaar_title">EKYC</string>
+    <string name="no_results_aadhaar_message">Authentication Failed \n Please enter valid Aadhar number!</string>
+    <string name="invalid_customer_title_text">Invalid Customer Title</string>
+    <string name="invalid_customer_title_message">Please select a valid customer title</string>
+    <string name="invalid_first_name_title">Invalid First Name</string>
+    <string name="empty_first_name_message">First name cannot be empty</string>
+    <string name="invalid_first_name_message">Please enter a valid first name</string>
+
+    <string name="firstname">firstname</string>
+    <string name="surname">surname</string>
+
+
+    <string name="invalid_middle_name_title">Invalid Middle Name</string>
+    <string name="empty_middle_name_message">Middle name cannot be empty</string>
+    <string name="invalid_middle_name_message">Please enter a valid middle name</string>
+    <string name="invalid_last_name_title">Invalid Surname</string>
+    <string name="empty_last_name_message">Surname cannot be empty</string>
+    <string name="invalid_contact_person_name_title">Invalid Contact Person</string>
+    <string name="empty_contact_person_name_message">Contact person name cannot be empty</string>
+    <string name="invalid_last_name_message">Please enter a valid last name</string>
+    <string name="invalid_father_name_title">Invalid Father/Husband Name</string>
+    <string name="empty_father_name_message">Father/Husband name cannot be empty</string>
+    <string name="invalid_father_name_message">Please enter a valid father/husband name</string>
+    <string name="invalid_dob_title">Invalid Date of Birth</string>
+    <string name="invalid_dob_message">Please select valid date of birth</string>
+    <string name="invalid_email_title">Invalid Email ID</string>
+    <string name="empty_email_message">Email ID cannot be empty</string>
+    <string name="invalid_email_message">Please enter a valid email ID</string>
+    <string name="invalid_pan_title">Invalid PAN Number</string>
+    <string name="empty_pan_message">PAN number cannot be empty</string>
+    <string name="invalid_pan_message">Please enter a valid PAN number</string>
+    <string name="invalid_tan_title">Invalid TAN Number</string>
+    <string name="empty_tan_message">TAN number cannot be empty</string>
+    <string name="invalid_tan_message">Please enter a valid TAN number</string>
+    <string name="invalid_bill_cycle_title">Invalid Bill Cycle</string>
+    <string name="invalid_bill_cycle_message">Please select a valid bill cycle</string>
+    <string name="invalid_segments_title">Invalid Segment Type</string>
+    <string name="invalid_segments_message">Please select a valid segment</string>
+    <string name="invalid_pop_name_title">Invalid POP Name</string>
+    <string name="invalid_pop_name_message">Please select a valid POP Name</string>
+    <string name="invalid_channels_title">Invalid Channel Type</string>
+    <string name="invalid_channels_message">Please select a valid channel</string>
+    <string name="invalid_bill_frequency_title">Invalid Bill Frequency</string>
+    <string name="invalid_bill_frequency_message">Please select a valid bill frequency</string>
+    <string name="invalid_olt_id_title">Invalid OLT ID</string>
+    <string name="invalid_olt_id_message">Please select a valid OLT ID</string>
+    <string name="invalid_olt_port_id_title">Invalid OLT-PORT ID</string>
+    <string name="invalid_olt_port_id_message">Please select a valid OLT-PORT ID</string>
+    <string name="invalid_olt_level_1_title">Invalid Level-1 Slot</string>
+    <string name="invalid_olt_level_1_message">Please select a valid Level-1 Slot</string>
+    <string name="invalid_olt_level_2_title">Invalid Level-2 Slot</string>
+    <string name="invalid_olt_level_2_message">Please select a valid Level-2 Slot</string>
+    <string name="invalid_olt_level_3_title">Invalid Level-3 Slot</string>
+    <string name="invalid_olt_level_3_message">Please select a valid Level-3 Slot</string>
+    <string name="invalid_slot_title">Invalid Slot</string>
+    <string name="invalid_slot_message">Slot is already assigned. Please select another slot</string>
+    <string name="onu_serial_number_exist_message">The entered ONU serial number has been submitted. Please enter another valid serial number</string>
+    <string name="iptv_serial_number_exist_message">The entered IPTV serial number has been submitted. Please enter another valid serial number</string>
+    <string name="invalid_cpe_model_title">Please select ONU Model</string>
+    <string name="invalid_cpe_model_message">Please select a valid ONU Model</string>
+    <string name="invalid_cpe_device_purchase_title">Invalid ONU EMI</string>
+    <string name="invalid_cpe_device_purchase_message">Please select No of ONU EMI</string>
+    <string name="invalid_stb_model_title">Please select IPTV Model</string>
+    <string name="invalid_stb_model_message">Please select a valid IPTV Model</string>
+    <string name="invalid_stb_device_purchase_title">Invalid No. of IPTV Box EMI </string>
+    <string name="invalid_stb_device_purchase_message">Please select a valid IPTV Box EMI</string>
+    <string name="invalid_district_title">Invalid District</string>
+    <string name="invalid_district_message">Please select a valid district</string>
+    <string name="invalid_mandal_title">Invalid Mandal</string>
+    <string name="invalid_mandal_message">Please select a valid Mandal</string>
+    <string name="invalid_village_title">Invalid City/Village</string>
+    <string name="invalid_village_message">Please select a valid City/Village</string>
+    <string name="invalid_onu_mac_title">Invalid ONU MAC ID</string>
+    <string name="empty_onu_mac_message">ONU MAC ID cannot be empty</string>
+    <string name="invalid_onu_mac_message">Please enter a valid ONU MAC ID</string>
+    <string name="invalid_iptv_mac_title">Invalid IPTV Box MAC ID</string>
+    <string name="empty_iptv_mac_message">IPTV Box MAC ID cannot be empty</string>
+    <string name="invalid_iptv_mac_message">Please enter a valid IPTV Box MAC ID</string>
+    <string name="invalid_cpe_id_title">Invalid ONU Serial Number</string>
+    <string name="empty_cpe_id_message">ONU Serial Number cannot be empty</string>
+    <string name="invalid_cpe_id_message">Please enter a valid ONU Serial Number</string>
+    <string name="invalid_iptv_id_title">Invalid IPTV Box Serial Number</string>
+    <string name="empty_iptv_id_message">IPTV Box Serial Number cannot be empty</string>
+    <string name="invalid_iptv_id_message">Please enter a valid IPTV Box Serial Number</string>
+    <string name="invalid_extra_cable_charge_title">Invalid Extra Cable Charge</string>
+    <string name="empty_extra_cable_charge_message">Extra Cable Charge cannot be empty</string>
+    <string name="not_valid_extra_cable_charge">Please enter a valid value for extra cable charge</string>
+    <string name="invalid_cpe_months_message">Please enter a valid CPE Lock-In month value</string>
+    <string name="invalid_latitude_title">Invalid Latitude</string>
+    <string name="invalid_latitude_message">Please enter a valid latitude</string>
+    <string name="invalid_longitude_title">Invalid Longitude</string>
+    <string name="invalid_longitude_message">Please enter a valid longitude</string>
+    <string name="invalid_location_title">Invalid Location</string>
+    <string name="invalid_location_message">Please enter a valid location</string>
+    <string name="invalid_address1_title">Invalid Address</string>
+    <string name="empty_address1_message">Building/House/Flat cannot be empty</string>
+    <string name="invalid_address1_message">Please enter a valid address</string>
+    <string name="invalid_address2_title">Invalid Address</string>
+    <string name="invalid_address2_message">Please enter a valid Street</string>
+    <string name="invalid_city_title">Invalid City</string>
+    <string name="empty_city_message">City cannot be empty</string>
+    <string name="invalid_city_message">Please enter a valid villageName</string>
+    <string name="invalid_state_title">Invalid State</string>
+    <string name="empty_state_message">State cannot be empty</string>
+    <string name="invalid_state_message">Please enter a valid state</string>
+    <string name="invalid_locality_title">Invalid Locality</string>
+    <string name="empty_locality_message">Locality cannot be empty</string>
+    <string name="invalid_locality_message">Please enter a valid locality name</string>
+    <string name="invalid_area_title">Invalid Area</string>
+    <string name="empty_area_message">Area cannot be empty</string>
+    <string name="invalid_area_message">Please enter a valid area name</string>
+    <string name="invalid_pinCode_title">Invalid Pin Code</string>
+    <string name="empty_pinCode_message">Pin code cannot be empty</string>
+    <string name="invalid_pinCode_message">Please enter a valid pincode</string>
+    <string name="invalid_mobile_title">Invalid Mobile Number</string>
+    <string name="empty_mobile_message">Mobile number cannot be empty</string>
+    <string name="invalid_mobile_message">Please enter a valid mobile number</string>
+    <string name="invalid_alternate_mobile_title">Invalid Alternate Mobile Number</string>
+    <string name="empty_alternate_mobile_message">Alternate mobile number cannot be empty</string>
+    <string name="invalid_alternate_mobile_message">Please enter a valid alternate mobile number</string>
+    <string name="invalid_std_code_title">Invalid STD Code</string>
+    <string name="empty_std_code_message">STD Code cannot be empty</string>
+    <string name="invalid_std_code_message">Please enter a valid STD code</string>
+    <string name="invalid_landline_title">Invalid Landline Number</string>
+    <string name="empty_landline_message">Landline number cannot be empty</string>
+    <string name="invalid_otp_title">Invalid OTP Number</string>
+    <string name="empty_otp_message">OTP number cannot be empty</string>
+    <string name="invalid_otp_message">OTP number should be exactly 4 characters</string>
+    <string name="wrong_otp_message">The entered OTP is incorrect. Please try again</string>
+    <string name="invalid_landline_message">Please enter a valid landline number</string>
+    <string name="invalid_identity_type_title">Invalid Identity Proof</string>
+    <string name="invalid_identity_type_message">Please select a valid identity proof</string>
+    <string name="invalid_identity_doc_title">Invalid Document Number</string>
+    <string name="invalid_identity_doc_message">Identity document number cannot be empty</string>
+    <string name="invalid_identity_auth_title">Invalid Issuing Authority</string>
+    <string name="invalid_identity_auth_message">Identity issuing authority cannot be empty</string>
+    <string name="invalid_identity_place_title">Invalid Place of Issue</string>
+    <string name="invalid_identity_place_message">Identity place of issue cannot be empty</string>
+    <string name="invalid_identity_date_title">Invalid Issue Date</string>
+    <string name="invalid_identity_date_message">Please enter a valid date of issue for identity proof</string>
+    <string name="invalid_address_type_title">Invalid Address Proof</string>
+    <string name="invalid_address_type_message">Please select a valid address proof</string>
+    <string name="invalid_address_doc_title">Invalid Document Number</string>
+    <string name="invalid_address_doc_message">Address document number cannot be empty</string>
+    <string name="invalid_address_auth_title">Invalid Issuing Authority</string>
+    <string name="invalid_address_auth_message">Address issuing authority cannot be empty</string>
+    <string name="invalid_address_place_title">Invalid Place of Issue</string>
+    <string name="invalid_address_place_message">Address place of issue cannot be empty</string>
+    <string name="invalid_address_date_title">Invalid Issue Date</string>
+    <string name="invalid_address_date_message">Please enter a valid date of issue for address proof</string>
+    <string name="invalid_customer_declaration_title">Customer Declaration</string>
+    <string name="invalid_customer_declaration_message">Please accept the customer declaration</string>
+    <string name="invalid_lmo_declaration_title">LMO Declaration</string>
+    <string name="invalid_lmo_declaration_message">Please accept the LMO declaration</string>
+
+    <!--  Feasibility Screen Error Titles and Messages !-->
+    <string name="invalid_payment_mode_title">Invalid Payment Mode</string>
+    <string name="invalid_payment_mode_message">Please select a valid payment mode</string>
+    <string name="invalid_payment_amount_title">Invalid Amount</string>
+    <string name="empty_payment_amount_message">Payment amount cannot be empty and should be greater than zero</string>
+    <string name="invalid_payment_amount_message">Please enter a valid amount</string>
+
+    <string name="alphabets_digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="only_alphabets">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="only_digits">0123456789</string>
+
+    <string name="discard_payment_message">Are you sure you want to discard the payment?</string>
+
+    <string name="caf_edit_changes_saved_message">All your changes have been saved</string>
+
+    <string name="payment_credit_warning_title">Alert</string>
+    <string name="payment_credit_reached_70">Your Credit limit crossed 70 percentage. Please increase the wallet amount</string>
+    <string name="payment_credit_reached_90">Your Credit limit crossed 90 percentage. Please pay the amount to enable CAF payments</string>
+    <string name="amount_less_than_total">Entered amount should be greater than or equal to payable amount</string>
+
+    <!--District array items-->
+    <string name="district_name_0">--Select--</string>
+    <string name="district_name_1">Srikakulam</string>
+    <string name="district_name_2">Vizianagaram</string>
+    <string name="district_name_3">Visakhapatnam</string>
+    <string name="district_name_4">East Godavari</string>
+    <string name="district_name_5">West Godavari</string>
+    <string name="district_name_6">Krishna</string>
+    <string name="district_name_7">Guntur</string>
+    <string name="district_name_8">Prakasam</string>
+    <string name="district_name_9">SPS Nellore</string>
+    <string name="district_name_10">Chittoor</string>
+    <string name="district_name_11">Kadapa</string>
+    <string name="district_name_12">Anantapur</string>
+    <string name="district_name_13">Kurnool</string>
+    <string name="should">should be minimum 3characters</string>
+    <string name="shouldone">should be minimum 1character</string>
+
+    <string-array name="district_spinner_items">
+        <item>@string/district_name_0</item>
+        <item>@string/district_name_1</item>
+        <item>@string/district_name_2</item>
+        <item>@string/district_name_3</item>
+        <item>@string/district_name_4</item>
+        <item>@string/district_name_5</item>
+        <item>@string/district_name_6</item>
+        <item>@string/district_name_7</item>
+        <item>@string/district_name_8</item>
+        <item>@string/district_name_9</item>
+        <item>@string/district_name_10</item>
+        <item>@string/district_name_11</item>
+        <item>@string/district_name_12</item>
+        <item>@string/district_name_13</item>
+
+    </string-array>
+
+
+    <string name="FCount">FCount</string>
+    <string-array name="Format">
+        <item>Format</item>
+        <item>XML</item>
+        <item>ProtoBuf</item>
+    </string-array>
+    <string-array name="Ftype">
+        <item>FType</item>
+        <item>FMR</item>
+        <item>FIR</item>
+    </string-array>
+    <string-array name="FPosition">
+        <item>Finger Position</item>
+        <item>UNKNOWN</item>
+        <item>RIGHT_THUMB</item>
+        <item>RIGHT_INDEX</item>
+        <item>RIGHT_MIDDLE</item>
+        <item>RIGHT_RING</item>
+        <item>RIGHT_LITTLE</item>
+        <item>LEFT_THUMB</item>
+        <item>LEFT_INDEX</item>
+        <item>LEFT_MIDDLE</item>
+        <item>LEFT_RING</item>
+        <item>LEFT_LITTLE</item>
+    </string-array>
+
+</resources>

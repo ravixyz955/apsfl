@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <include
+        android:id="@+id/tenantBalanceLayout"
+        layout="@layout/layout_tenant_balance" />
+
+   <!-- <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="@string/payment_caf_heading" />
+
+    <TextView
+        android:id="@+id/paymentCAFNumber"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal" />-->
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_aadhaar_heading" />
+
+    <TextView
+        android:id="@+id/paymentAadhaarNo"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal" />
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_customer_name_heading" />
+
+    <TextView
+        android:id="@+id/paymentCustomerName"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal" />
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_payable_amount_heading" />
+
+    <TextView
+        android:id="@+id/totalPayableAmount"
+        style="@style/customEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/customTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/payment_mode_heading" />
+
+        <Spinner
+            android:id="@+id/entryPaymentSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_amount_heading" />
+
+    <EditText
+        android:id="@+id/paymentAmountToPay"
+        style="@style/customEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="@string/payment_amount_hint"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+</LinearLayout>

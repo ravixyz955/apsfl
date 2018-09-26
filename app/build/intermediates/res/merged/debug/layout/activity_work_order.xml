@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/tenantBalanceLayout"
+                layout="@layout/layout_tenant_balance" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_packages_text" />
+
+            <TextView
+                android:id="@+id/feaseProducts"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_cpe_charges_text" />
+
+            <TextView
+                android:id="@+id/feaseCPECharges"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:text="@string/fease_caf_text" />
+
+            <TextView
+                android:id="@+id/feaseCAFNo"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_aadhaar_text" />
+
+            <TextView
+                android:id="@+id/feaseAadhaarNo"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_customer_first_name" />
+
+            <TextView
+                android:id="@+id/feaseCustomerFirstName"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/customerSurnameHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_customer_last_name" />
+
+            <TextView
+                android:id="@+id/feaseCustomerLastName"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <!-- <TextView
+                  style="@style/customTextViewStyle"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="VPN Service Name" />
+
+              <TextView
+                  android:id="@+id/vpnServiceName"
+                  style="@style/customTextViewStyle"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textStyle="normal" />-->
+
+            <!--    <TextView
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/fease_onu_serial_number" />
+
+               <TextView
+                   android:id="@+id/feaseONUSerialNumber"
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textStyle="normal" />
+
+               <TextView
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/fease_onu_mac_address" />
+
+               <TextView
+                   android:id="@+id/feaseONUMacAddress"
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textStyle="normal" />
+
+               <TextView
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/fease_iptv_model_name" />
+
+               <TextView
+                   android:id="@+id/feaseIPTVModelName"
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textStyle="normal" />
+
+               <TextView
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/fease_iptv_serial_number" />
+
+               <TextView
+                   android:id="@+id/feaseIPTVSerialNumber"
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textStyle="normal" />
+
+               <TextView
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/fease_iptv_mac_id" />
+
+               <TextView
+                   android:id="@+id/feaseIPTVMacAddress"
+                   style="@style/customTextViewStyle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textStyle="normal" />
+   -->
+            <!--<TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Installation Amount With Tax" />
+
+            <TextView
+                android:id="@+id/feaseTotalInstAmount"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />-->
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_total_charge_text" />
+
+            <TextView
+                android:id="@+id/feaseTotalCharge"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_effective_date_text" />
+
+            <TextView
+                android:id="@+id/feaseEffectiveDate"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fease_bill_frequency_text" />
+
+            <TextView
+                android:id="@+id/feaseBillFrequency"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/feasibilityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/fease_check_text" />
+
+                <RadioGroup
+                    android:id="@+id/feaseCheckRadioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/feaseRadioYes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:checked="true"
+                        android:text="@string/fease_check_yes_text" />
+
+                    <RadioButton
+                        android:id="@+id/feaseRadioNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fease_check_no_text" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paymentAmountLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fease_payment_text" />
+
+                <Spinner
+                    android:id="@+id/paymentSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp" />
+
+                <TextView
+                    android:id="@+id/amountTv"
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fease_amount_text"
+                    android:visibility="invisible"
+                    />
+
+                <EditText
+                    android:id="@+id/paymentAmountEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fease_amount_hint"
+                    android:visibility="invisible"
+                    android:imeOptions="actionDone"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paymentDDLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dd_date_issue_text" />
+
+                    <TextView
+                        android:id="@+id/paymentDDDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/rsz_calendar_image"
+                        android:drawablePadding="5dp"
+                        android:drawableStart="@mipmap/rsz_calendar_image"
+                        android:gravity="center|start"
+                        android:padding="8dp"
+                        android:text="@string/identity_date_issue_hint"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fease_dd_number_text" />
+
+                    <EditText
+                        android:id="@+id/paymentDDNOEditText"
+                        style="@style/customEditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:hint="@string/fease_dd_number_hint"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fease_dd_bank_text" />
+
+                    <EditText
+                        android:id="@+id/paymentBankEditText"
+                        style="@style/customEditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/only_alphabets"
+                        android:hint="@string/fease_dd_bank_hint"
+                        android:imeOptions="actionNext"
+                        android:inputType="text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fease_dd_branch_text" />
+
+                    <EditText
+                        android:id="@+id/paymentBranchEditText"
+                        style="@style/customEditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/only_alphabets"
+                        android:hint="@string/fease_dd_branch_hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

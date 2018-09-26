@@ -1,0 +1,12 @@
+<resources>
+
+    <!--  Login Screen Layout Values -->
+    <dimen name="loginLayoutMargin">10dp</dimen>
+    <dimen name="loginLayoutPadding">10dp</dimen>
+    <dimen name="loginGovtTextSize">20sp</dimen>
+    <dimen name="loginFibreTextSize">25sp</dimen>
+    <dimen name="loginFieldsTextSize">22sp</dimen>
+    <dimen name="loginFieldsMargin">5dp</dimen>
+    <dimen name="loginFieldsPadding">10dp</dimen>
+    <dimen name="loginDrawablePadding">8dp</dimen>
+</resources>

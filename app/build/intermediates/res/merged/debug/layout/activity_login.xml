@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:fillViewport="true"
+    tools:context=".activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/loginLayoutMargin"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/loginLayoutPadding">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@mipmap/ap_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loginLayoutMargin"
+                android:text="@string/government_of_ap"
+                android:textColor="@color/white"
+                android:textSize="@dimen/loginGovtTextSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/state_fiber_limited"
+                android:textColor="@color/white"
+                android:textSize="@dimen/loginFibreTextSize" />
+
+<!--
+            <EditText
+                android:id="@+id/ipAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loginFieldsMargin"
+                android:background="@drawable/custom_edittext_bg"
+                android:drawablePadding="@dimen/loginDrawablePadding"
+                android:hint="Enter Ipaddress and port no"
+                android:inputType="text"
+                android:padding="@dimen/loginFieldsPadding"
+                android:textSize="@dimen/loginFieldsTextSize" />
+-->
+
+
+            <EditText
+                android:id="@+id/loginUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loginFieldsMargin"
+                android:background="@drawable/custom_edittext_bg"
+                android:drawableLeft="@mipmap/username_icon"
+                android:drawablePadding="@dimen/loginDrawablePadding"
+                android:drawableStart="@mipmap/username_icon"
+                android:hint="@string/login_username_hint"
+                android:inputType="text|textVisiblePassword"
+                android:padding="@dimen/loginFieldsPadding"
+                android:textSize="@dimen/loginFieldsTextSize" />
+
+            <EditText
+                android:id="@+id/loginUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loginFieldsMargin"
+                android:background="@drawable/custom_edittext_bg"
+                android:drawableLeft="@mipmap/password_icon"
+                android:drawablePadding="@dimen/loginDrawablePadding"
+                android:drawableStart="@mipmap/password_icon"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword"
+                android:padding="@dimen/loginFieldsPadding"
+                android:textSize="@dimen/loginFieldsTextSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/loginFieldsMargin"
+                    android:background="@color/loginButtonColor"
+                    android:text="@string/login_button_hint"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/loginFieldsTextSize" />
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/forgotPasswordButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/loginFieldsMargin"
+                    android:background="@color/loginButtonColor"
+                    android:text="Forgot Password"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/loginFieldsTextSize" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loginCopyRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Version V2.11 \n Developed by Arbiva"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:visibility="visible" />
+        <!-- android:text="@string/login_copyrights"-->
+    </RelativeLayout>
+</ScrollView>

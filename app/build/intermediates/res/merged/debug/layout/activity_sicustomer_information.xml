@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextLayout"
+        >
+        <include layout="@layout/layout_toolbar" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            >
+
+            <LinearLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+
+                <!--<TextView
+                    android:id="@+id/formCAFNumber"
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start|center" />-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5">
+                        <TextView
+                            style="@style/customTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CAF Number" />
+                        <TextView
+                            android:enabled="false"
+                            android:id="@+id/cafNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center|start"
+                            android:paddingBottom="5dp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5">
+                        <TextView
+                            style="@style/customTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="APSFL Track Id" />
+                        <TextView
+                            android:enabled="false"
+                            android:id="@+id/trackId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center|start"
+                            android:paddingBottom="5dp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- <TextView
+                     style="@style/customTextViewStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="CAF Number" />
+
+                 <EditText
+                     android:id="@+id/cafNumber"
+                     style="@style/customEditTextStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:imeOptions="actionNext"
+                     android:enabled="false"
+                     android:inputType="text|textVisiblePassword"
+                     android:maxLength="50" />
+
+                 <TextView
+                     style="@style/customTextViewStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="APSFL Track Id" />
+
+                 <EditText
+                     android:enabled="false"
+                     android:id="@+id/trackId"
+                     style="@style/customEditTextStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:imeOptions="actionNext"
+                     android:inputType="text|textVisiblePassword"
+                     android:maxLength="50" />-->
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Organization Name" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/organizationName"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textVisiblePassword"
+                    android:maxLength="20" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Contact Person" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/contactPerson"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textVisiblePassword"
+                    android:maxLength="20" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Person Ph.no:" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/contactPersonMobileNo"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textVisiblePassword"
+                    android:maxLength="30" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Installation Address" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/instAddress"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:lines="2"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:text="CPE Device Location"
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/deviceLocation"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text|textVisiblePassword"
+                    android:lines="2" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Installation District" />
+
+                <Spinner
+                    android:clickable="false"
+                    android:id="@+id/instDistSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+
+                <LinearLayout
+                    android:id="@+id/enterpriseCustomerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Installation Mandal" />
+
+                    <TextView
+                        android:enabled="false"
+                        android:id="@+id/instMandal"
+                        android:text="Select to load Installation Mandal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center|start"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/black" />
+                    <!--<TextView
+                        android:id="@+id/instMandal"
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         />-->
+
+                    <TextView
+                        style="@style/customTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Installation Village/City" />
+                    <TextView
+                        android:id="@+id/instVillage"
+                        android:text="Select Installation Village"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center|start"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/black" />
+                    <!-- <TextView
+                         android:id="@+id/instVillage"
+                         style="@style/customTextViewStyle"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         />-->
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include
+        android:id="@+id/nextLayout"
+        layout="@layout/layout_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp" />
+</RelativeLayout>

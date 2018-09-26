@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-hdpi-v4\\values-large-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 50,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 49,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 49,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 47,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 307,
+                        "endColumn": 47,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 49,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 49,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 50,
+                    "endOffset": 300
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 50,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 305,
+                    "endColumn": 48,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 48,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endColumn": 48,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 48,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endColumn": 49,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-large-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 49,
+                        "endOffset": 152
+                    }
+                }
+            }
+        ]
+    }
+]

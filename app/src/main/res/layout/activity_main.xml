@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <TextView
+        android:id="@+id/txtLoginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black_45"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/individualCAFLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/individual_caf"
+                android:drawableStart="@mipmap/individual_caf"
+                android:text="@string/submit_new_individual_form" />
+
+            <TextView
+                android:id="@+id/enterpriseCAFLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/group_caf"
+                android:drawableStart="@mipmap/group_caf"
+                android:text="@string/submit_new_enterprise_form" />
+
+            <TextView
+                android:id="@+id/searchCAFLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/search_caf"
+                android:drawableStart="@mipmap/search_caf"
+                android:text="@string/search_existing_caf_text" />
+            <TextView
+                android:id="@+id/offlineSavedForms"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/search_caf"
+                android:drawableStart="@mipmap/search_caf"
+                android:text="Saved Offline CAFs" />
+
+            <TextView
+                android:id="@+id/makePaymentsLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/make_payments"
+                android:drawableStart="@mipmap/make_payments"
+                android:text="@string/make_payments_text" />
+
+            <TextView
+                android:id="@+id/makeBulkPaymentsLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/make_payments"
+                android:drawableStart="@mipmap/make_payments"
+                android:text="@string/make_bulk__payments_text" />
+
+
+            <TextView
+                android:id="@+id/pendingFormsLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/upload"
+                android:drawableStart="@mipmap/upload"
+                android:text="@string/pending_forms_text" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/failedFormsLayout"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/failed"
+                android:drawableStart="@mipmap/failed"
+                android:text="Failed CAF Forms" />
+            <TextView
+                android:id="@+id/btn_view_revenue_sharing"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/group_caf"
+                android:drawableStart="@mipmap/group_caf"
+                android:onClick="viewRevenueSharing"
+                android:text="View Revenue Sharing" />
+            <TextView
+                android:id="@+id/btn_ponchange"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/group_caf"
+                android:drawableStart="@mipmap/group_caf"
+                android:onClick="ponChangeRequest"
+                android:visibility="gone"
+                android:text="PonChange" />
+            <TextView
+                android:id="@+id/action_change_password"
+                style="@style/mainBlockStyle"
+                android:drawableLeft="@mipmap/changepassword"
+                android:drawableStart="@mipmap/changepassword"
+                android:text="Reset Password" />
+
+        </LinearLayout>
+    </ScrollView>
+    <!--<TextView
+        android:text="V2.1"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black_45"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/toolBar_bg"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_alignParentBottom="true"/>-->
+</LinearLayout>

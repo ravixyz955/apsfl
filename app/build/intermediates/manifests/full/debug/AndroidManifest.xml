@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.apsfl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.app.apsfl.application.BaseApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ap_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.app.apsfl.activities.SplashScreenActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.ViewRevenueSharing"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.MainActivity"
+            android:label="@string/activity_main_title"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.SelectedPackagesActivity"
+            android:label="@string/activity_selected_product_services_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.app.apsfl.activities.MonthlyBulkPaymentAxtivity"
+            android:label="Monthly Bulk Payments"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.SearchCAFActivity"
+            android:label="@string/activity_search_caf_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.CAFResultsActivity"
+            android:label="@string/activity_caf_results_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.NewCAFActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.app.apsfl.activities.WorkOrderActivity"
+            android:label="@string/activity_feasibility_check_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.SearchPaymentsActivity"
+            android:label="@string/activity_payments_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.app.apsfl.activities.MakePaymentActivity"
+            android:label="@string/activity_payment_entry_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.EnterpriseCustomersActivity"
+            android:label="@string/activity_select_enterprise_customer_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SelectMandalActivity"
+            android:label="@string/activity_select_mandal_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.SelectVillageActivity"
+            android:label="@string/activity_select_village_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.apsfl.activities.SelectPOPActivity"
+            android:label="@string/activity_select_pop_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.OfflineFormActivity"
+            android:label="@string/pending_forms_text"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.VOIPFeatureActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.SelectedCPEActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.PaymentSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SendOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.ChangePassword"
+            android:label="Reset Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.ForgotPasswordActivity"
+            android:label="Forgot Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SelectInstVillageActivity"
+            android:label="@string/activity_select_village_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.FailedForms"
+            android:label="Failed Forms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SICustomerInformation"
+            android:label="Customer Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SICPEInformation"
+            android:label="CPEInformation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.OfflineEditForms"
+            android:label="Saved Offline CAFs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.SelectSIPOPActivity"
+            android:label="@string/activity_select_pop_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.apsfl.activities.SIPendingFormActivity"
+            android:label="Resubmit CAFs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.apsfl.activities.EkycActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.apsfl.activities.PonChangeActivity" />
+        <activity android:name="com.app.apsfl.activities.ChangeOltDetailsActivity" />
+        <activity android:name="com.app.apsfl.activities.WelcomeActivity" >
+        </activity>
+    </application>
+
+</manifest>

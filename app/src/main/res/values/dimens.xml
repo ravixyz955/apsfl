@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--  Login Screen Layout Values -->
+    <dimen name="loginLayoutMargin">10dp</dimen>
+    <dimen name="loginLayoutPadding">10dp</dimen>
+    <dimen name="loginGovtTextSize">15sp</dimen>
+    <dimen name="loginFibreTextSize">20sp</dimen>
+    <dimen name="loginFieldsTextSize">18sp</dimen>
+    <dimen name="loginFieldsMargin">5dp</dimen>
+    <dimen name="loginFieldsPadding">10dp</dimen>
+    <dimen name="loginDrawablePadding">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

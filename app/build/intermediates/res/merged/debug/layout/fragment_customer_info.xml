@@ -1,0 +1,370 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/nextLayout"
+        layout="@layout/layout_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nextLayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/tenantBalanceLayout"
+                layout="@layout/layout_tenant_balance" />
+
+            <TextView
+                android:id="@+id/formCAFNumber"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start|center" />
+
+            <TextView
+                android:id="@+id/aadhaarTitle"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="@string/aadhaar_number_text" />
+
+            <LinearLayout
+                android:id="@+id/formAadhaarNumberLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/formAadhaarEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:digits="@string/only_digits"
+                    android:hint="@string/aadhaar_number_hint"
+                    android:inputType="number"
+                     />
+
+                <Button
+                    android:id="@+id/retrieveAadhaarButton"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/custom_button_bg"
+                    android:text="@string/aadhaar_number_button_text"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_title_text"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/formCustomerTitleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:background="@mipmap/spinner_bg" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name_text" />
+
+            <EditText
+                android:id="@+id/firstNameEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_name_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="50" />
+
+            <TextView
+                android:id="@+id/middleNameHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/middle_name_text" />
+
+            <EditText
+                android:id="@+id/middleNameEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/middle_name_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="20" />
+
+            <TextView
+                android:id="@+id/surNameHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name_text" />
+
+            <EditText
+                android:id="@+id/surNameEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="20" />
+
+            <TextView
+                android:id="@+id/fatherNameHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/father_husband_text" />
+
+            <EditText
+                android:id="@+id/formFatherEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/father_husband_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:text="@string/dob_text" />
+
+                <TextView
+                    android:id="@+id/formCustomerDOB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:drawableEnd="@mipmap/rsz_calendar_image"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/rsz_calendar_image"
+                    android:gravity="center|end"
+                    android:padding="8dp"
+                    android:text="@string/dob_text_hint"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/formGenderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center|top"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65"
+                    android:text="@string/gender_text" />
+
+                <RadioGroup
+                    android:id="@+id/formGenderRadioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RadioButton
+                        android:id="@+id/maleRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:text="@string/gender_male_text" />
+
+                    <RadioButton
+                        android:id="@+id/femaleRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:checked="false"
+                        android:text="@string/gender_female_text" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address_text" />
+
+            <EditText
+                android:id="@+id/formEmailEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/formContactPersonHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/formContactPersonName"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_person_hint"
+                android:imeOptions="actionDone"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="50" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bill_frequency_text" />
+
+            <Spinner
+                android:id="@+id/billFrequencySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+            <LinearLayout
+                android:id="@+id/spinnerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill_cycle_text" />
+
+                <Spinner
+                    android:id="@+id/billCycleSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/segment_text" />
+
+                <Spinner
+                    android:id="@+id/segmentSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/channel_text" />
+
+                <Spinner
+                    android:id="@+id/channelSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/enterpriseCustomerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pan_id_text" />
+
+                <EditText
+                    android:id="@+id/formPANEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="@string/alphabets_digits"
+                    android:hint="@string/pan_id_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textVisiblePassword"
+                    android:maxLength="10" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tan_number_text" />
+
+                <EditText
+                    android:id="@+id/formTANEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="@string/alphabets_digits"
+                    android:hint="@string/tan_number_hint"
+                    android:imeOptions="actionDone"
+                    android:inputType="text|textVisiblePassword"
+                    android:maxLength="10" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/previousNextLayout"
+        layout="@layout/layout_previous_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/previousNextLayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pop_name_text" />
+
+            <TextView
+                android:id="@+id/selectedPOPName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center|start"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/oltIDSpinnerHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/olt_id_text" />
+
+            <Spinner
+                android:id="@+id/oltIDSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+            <TextView
+                android:id="@+id/oltPortHeader"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/olt_port_id_text" />
+
+            <Spinner
+                android:id="@+id/oltPortIDSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+
+            <TextView
+                android:id="@+id/oltPortLevel1Header"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/olt_port_level1_text" />
+
+            <Spinner
+                android:id="@+id/oltPortLevel1Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+
+            <TextView
+                android:id="@+id/oltPortLevel2Header"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/olt_port_level2_text" />
+
+            <Spinner
+                android:id="@+id/oltPortLevel2Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+
+            <TextView
+                android:id="@+id/oltPortLevel3Header"
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/olt_port_level3_text" />
+
+            <Spinner
+                android:id="@+id/oltPortLevel3Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+
+
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpe_serial_number_text" />
+
+            <EditText
+                android:id="@+id/formONUID"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/device_id_text_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="20" />
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpe_onu_mac_address_text" />
+
+            <EditText
+                android:id="@+id/formCPEMacAddress"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cpe_stb_mac_address_hint"
+                android:imeOptions="actionNext"
+                android:inputType="text|textVisiblePassword"
+                android:maxLength="17" />
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpe_model_text" />
+
+            <Spinner
+                android:clickable="false"
+                android:id="@+id/cpeModelSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+           <!-- <LinearLayout
+                android:id="@+id/formCPELeaseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:text="@string/cpe_lease_text" />
+
+                <RadioGroup
+                    android:id="@+id/formCPERadioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RadioButton
+                        android:id="@+id/cpeYesRadioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:text="@string/fease_check_yes_text" />
+
+                    <RadioButton
+                        android:id="@+id/cpeNoRadioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:checked="false"
+                        android:text="@string/fease_check_no_text" />
+                </RadioGroup>
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/formIfCPELeaseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cpe_if_lease_text" />
+
+                <EditText
+                    android:id="@+id/emiCountEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    style="@style/customEditTextStyle"
+                    android:enabled="false"
+                    android:inputType="number|textVisiblePassword"
+                    android:hint="No Of ONU EMI"/>
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cpe_installments_text" />
+
+                <EditText
+                    android:id="@+id/formONUemiAmountEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="@string/cpe_installments_hint"
+                    android:inputType="number|textVisiblePassword" />
+
+                <TextView
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cpe_price_rental_text" />
+
+                <EditText
+                    android:id="@+id/formCPEUpFrontChargesEditText"
+                    style="@style/customEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="@string/cpe_price_rental_hint"
+                    android:inputType="number|textVisiblePassword" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpe_installation_text" />
+
+            <EditText
+                android:id="@+id/formCPEInstallationEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="@string/cpe_installation_hint"
+                android:inputType="number|textVisiblePassword" />
+            <!--<TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cpe_extra_cable_charge_text" />
+
+            <EditText
+                android:id="@+id/formCPECableChargeEditText"
+                style="@style/customEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cpe_extra_cable_charge_hint"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal|textVisiblePassword"
+                android:maxLength="10" />-->
+        <LinearLayout
+            android:id="@+id/formtelephonicLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+        <TextView
+                style="@style/customTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No of Telephone Connections*" />
+
+            <Spinner
+                android:id="@+id/telephonicConnCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/spinner_bg" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/formVpnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VPN Service Name*" />
+
+                <Spinner
+                    android:id="@+id/vpnServiceSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/formSTBLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <TextView
+                    android:visibility="gone"
+                    style="@style/customTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No of Iptv Connections*" />
+
+                <Spinner
+                    android:visibility="gone"
+                    android:id="@+id/iptvConnCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@mipmap/spinner_bg" />
+                <LinearLayout
+                    android:id="@+id/stbWrapper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/add_iptv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:tag="new"
+                        android:textColor="@color/next_screen_text_color"
+                        android:background="@drawable/next_layout_bg"
+                        android:text="Add IPTV" />
+
+                    <Button
+                        android:id="@+id/remove_iptv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:tag="delete"
+                        android:textColor="@color/next_screen_text_color"
+                        android:background="@drawable/next_layout_bg"
+                        android:text="Remove IPTV" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

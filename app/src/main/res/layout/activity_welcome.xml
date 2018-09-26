@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstscreen">
+
+    <ProgressBar
+        android:id="@+id/progressBarCircle"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawable_circle_dark_blue"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/drawable_circle_yellow"
+        android:rotation="90"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <EditText
+        android:id="@+id/editTextMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:minEms="5"
+        android:text="1"
+        android:visibility="gone"
+        android:textColor="@color/colorYellow"
+        android:textColorHint="@color/colorYellow" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="22dp"
+        android:text="00"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewStartStop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/progressBarCircle"
+        android:src="@drawable/error"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_alignLeft="@+id/progressBarCircle" />
+
+</RelativeLayout>

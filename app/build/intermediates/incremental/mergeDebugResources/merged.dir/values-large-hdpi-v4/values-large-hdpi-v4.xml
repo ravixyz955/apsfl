@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginDrawablePadding">8dp</dimen>
+    <dimen name="loginFibreTextSize">25sp</dimen>
+    <dimen name="loginFieldsMargin">5dp</dimen>
+    <dimen name="loginFieldsPadding">10dp</dimen>
+    <dimen name="loginFieldsTextSize">22sp</dimen>
+    <dimen name="loginGovtTextSize">20sp</dimen>
+    <dimen name="loginLayoutMargin">10dp</dimen>
+    <dimen name="loginLayoutPadding">10dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.app.apsfl.activities.CAFResultsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/layout_toolbar" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cafResultsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
+    <Button
+        android:background="@drawable/next_layout_bg"
+        android:id="@+id/saveToofflineid"
+        android:text="Save to Offline"
+        android:onClick="saveToOffline"
+        android:textColor="@color/next_screen_text_color"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

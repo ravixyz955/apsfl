@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\radio_on.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\radio_on.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\checked.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\checked.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\splash_image.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\splash_image.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\failed.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\failed.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\search_image.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\search_image.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\spinner_bg.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\spinner_bg.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\next_arrow.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\next_arrow.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\fiber_logo.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\fiber_logo.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\make_payments.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\make_payments.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\previous_arrow.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\previous_arrow.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\username_icon.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\username_icon.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\submitted_form.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\submitted_form.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\sync.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\sync.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ap_logo.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\ap_logo.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\individual_caf.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\individual_caf.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\lock_image.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\lock_image.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pending_form.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\pending_form.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\input_bg.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\input_bg.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\changepassword.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\changepassword.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\logout.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\logout.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\group_caf.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\group_caf.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\search_caf.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\search_caf.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\login_bg.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\calendar.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\calendar.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\upload.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\upload.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\radio_off.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\radio_off.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\rsz_calendar_image.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\rsz_calendar_image.png"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\password_icon.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\mipmap-hdpi\\password_icon.png"
+    }
+]

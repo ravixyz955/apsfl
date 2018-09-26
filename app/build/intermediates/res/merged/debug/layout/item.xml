@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:descendantFocusability="blocksDescendants"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/cafNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cafno"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/custName"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="custName"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/mobNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="mobNo"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/dueAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="dueAmt"
+            android:textSize="13dp" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/ColChk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"></android.support.v7.widget.AppCompatCheckBox>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

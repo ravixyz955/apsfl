@@ -1,0 +1,53 @@
+package io.realm;
+
+
+public interface CPEInfoModelRealmProxyInterface {
+    public Long realmGet$formTime();
+    public void realmSet$formTime(Long value);
+    public String realmGet$cpePOPName();
+    public void realmSet$cpePOPName(String value);
+    public int realmGet$cpeOLTIDPosition();
+    public void realmSet$cpeOLTIDPosition(int value);
+    public int realmGet$cpeOLTPortIDPosition();
+    public void realmSet$cpeOLTPortIDPosition(int value);
+    public int realmGet$cpeLevel1SlotPosition();
+    public void realmSet$cpeLevel1SlotPosition(int value);
+    public int realmGet$cpeLevel2SlotPosition();
+    public void realmSet$cpeLevel2SlotPosition(int value);
+    public int realmGet$cpeLevel3SlotPosition();
+    public void realmSet$cpeLevel3SlotPosition(int value);
+    public int realmGet$onuModelPosition();
+    public void realmSet$onuModelPosition(int value);
+    public int realmGet$onuDevicePurchasePosition();
+    public void realmSet$onuDevicePurchasePosition(int value);
+    public int realmGet$vpnSpinnerPosition();
+    public void realmSet$vpnSpinnerPosition(int value);
+    public String realmGet$VpnServiceName();
+    public void realmSet$VpnServiceName(String value);
+    public String realmGet$noOfOnuInstallments();
+    public void realmSet$noOfOnuInstallments(String value);
+    public String realmGet$onuPriceForInstallment();
+    public void realmSet$onuPriceForInstallment(String value);
+    public String realmGet$onuInstallationCharge();
+    public void realmSet$onuInstallationCharge(String value);
+    public String realmGet$installationTax();
+    public void realmSet$installationTax(String value);
+    public String realmGet$onuSerialNumber();
+    public void realmSet$onuSerialNumber(String value);
+    public String realmGet$onuMacAddress();
+    public void realmSet$onuMacAddress(String value);
+    public String realmGet$cpeExtraCableCharge();
+    public void realmSet$cpeExtraCableCharge(String value);
+    public int realmGet$teleConnCountPosition();
+    public void realmSet$teleConnCountPosition(int value);
+    public int realmGet$iptvConnCountPosition();
+    public void realmSet$iptvConnCountPosition(int value);
+    public String realmGet$onuModel();
+    public void realmSet$onuModel(String value);
+    public String realmGet$onuTax();
+    public void realmSet$onuTax(String value);
+    public String realmGet$onuUpfrontEmount();
+    public void realmSet$onuUpfrontEmount(String value);
+    public RealmList<com.app.apsfl.models.IptvDataModel> realmGet$selectedIptvList();
+    public void realmSet$selectedIptvList(RealmList<com.app.apsfl.models.IptvDataModel> value);
+}

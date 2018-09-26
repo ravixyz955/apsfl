@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/formIPTVLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">-->
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iptv_serial_number_text" />
+
+    <EditText
+        android:id="@+id/formIPTVSerialNoEditText"
+        style="@style/customEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/iptv_serial_number_hint"
+        android:imeOptions="actionNext"
+        android:inputType="text|textVisiblePassword"
+        android:maxLength="20" />
+
+    <TextView
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iptv_box_mac_id_text" />
+
+    <EditText
+        android:id="@+id/formIPTVMacAddressEditText"
+        style="@style/customEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/iptv_box_mac_id_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text|textVisiblePassword"
+        android:maxLength="17" />
+    <TextView
+        android:id="@+id/formIPTVSpinnerHeader"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPTV model" />
+
+    <Spinner
+        android:clickable="false"
+        android:id="@+id/cpeSTBModelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@mipmap/spinner_bg" />
+
+    <!--<LinearLayout
+        android:id="@+id/formSTBLeaseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/customTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="@string/cpe_stb_lease_text" />
+
+        <RadioGroup
+            android:id="@+id/formSTBRadioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RadioButton
+                android:id="@+id/stbYesRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:text="@string/fease_check_yes_text" />
+
+            <RadioButton
+                android:id="@+id/stbNoRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:checked="false"
+                android:text="@string/fease_check_no_text" />
+        </RadioGroup>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/formIfSTBLeaseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/customTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cpe_stb_if_lease_text" />
+
+        <EditText
+            android:id="@+id/iptvEmiCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            style="@style/customEditTextStyle"
+            android:enabled="false"
+            android:hint="No Of IPTV Box EMI"
+            android:inputType="number|textVisiblePassword" />
+
+        <TextView
+            style="@style/customTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iptv_installments_text" />
+
+        <EditText
+            android:id="@+id/iptvBoxEmiprice"
+            style="@style/customEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/cpe_installments_hint"
+            android:inputType="number|textVisiblePassword" />
+
+        <TextView
+            style="@style/customTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cpe_stb_price_rental_text" />
+
+        <EditText
+            android:id="@+id/iptvBoxUpfrontPrice"
+            style="@style/customEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="@string/cpe_stb_price_rental_hint"
+            android:inputType="number|textVisiblePassword" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/iptvPackageHeader"
+        style="@style/customTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPTV Box Package*" />
+
+    <TextView
+        android:id="@+id/iptvPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:text="--Select--"
+        android:background="@mipmap/spinner_bg" />
+</LinearLayout>

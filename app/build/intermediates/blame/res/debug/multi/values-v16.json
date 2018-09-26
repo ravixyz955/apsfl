@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 570
+                },
+                "from": {
+                    "file": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\values-v16\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 583
+                    }
+                }
+            }
+        ]
+    }
+]

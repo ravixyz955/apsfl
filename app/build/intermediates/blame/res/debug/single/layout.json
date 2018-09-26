@@ -1,0 +1,446 @@
+[
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_offline_form_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_offline_form_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_info.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_customer_info.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_failed_forms.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_failed_forms.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_mandals_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_mandals_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_month_year_picker.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\view_month_year_picker.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_selected_products_services.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_selected_products_services.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_feature_name_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_feature_name_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_previous_submit.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_previous_submit.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_field_input.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_field_input.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_dialog_title.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\view_dialog_title.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pb510.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_pb510.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sipending_form.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_sipending_form.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_address.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_customer_address.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_caf_results.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_caf_results.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enterprise_customers.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_enterprise_customers.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_sipop.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_select_sipop.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_olt_details.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_change_olt_details.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_aadhar_number.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\custom_aadhar_number.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_mandal.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_select_mandal.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bulk_payment.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_bulk_payment.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_payments.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_search_payments.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline_edit_forms.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_offline_edit_forms.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_divider_color.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\picker_divider_color.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_documents.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_customer_documents.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_payment_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_payment_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sicpeinformation.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_sicpeinformation.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_city.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_select_city.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_previous_next.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_previous_next.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_one_time_package.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_one_time_package.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_make_payments.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_make_payments.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_enterprise_customers_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_enterprise_customers_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_each_voip_feature.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_each_voip_feature.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_custom_spinner.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_custom_spinner.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_cpe.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_customer_cpe.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_caf_results.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_caf_results.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_selected_cpe.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_selected_cpe.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selected_cpe.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_selected_cpe.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_revenue_sharing.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_view_revenue_sharing.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_voip_service.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_voip_service.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_otp.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_send_otp.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offline_edit_row.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\offline_edit_row.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_pop_name_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_pop_name_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_iptv_si.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_iptv_si.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_iptv.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_iptv.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment_success.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_payment_success.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot_password.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_autotext_dropdown.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_autotext_dropdown.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_select_package.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\fragment_select_package.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_caf.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_new_caf.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_work_order.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_work_order.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_on_package.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_add_on_package.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_caf.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_search_caf.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_field_remove.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_field_remove.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_background.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\dialog_background.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pon_change.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_pon_change.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sicustomer_information.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_sicustomer_information.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline_form.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_offline_form.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tenant_balance.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_tenant_balance.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_voip_feature.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_voip_feature.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_next.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_next.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_product_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_product_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selected_products_services.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_selected_products_services.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_villages_list.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_villages_list.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_spinner_dropdown.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\row_spinner_dropdown.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_inst_village.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_select_inst_village.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pop_name.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\activity_pop_name.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_field_spinner.xml",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\layout\\layout_field_spinner.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\layout\\abc_search_view.xml"
+    }
+]
