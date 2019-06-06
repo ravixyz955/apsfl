@@ -2155,20 +2155,21 @@ containing a value of this type.
         public static final int drawable_circle_yellow=0x7f020055;
         public static final int error=0x7f020056;
         public static final int firstscreen=0x7f020057;
-        public static final int icon_reset=0x7f020058;
-        public static final int icon_start=0x7f020059;
-        public static final int icon_stop=0x7f02005a;
-        public static final int next_layout_bg=0x7f02005b;
-        public static final int notification_template_icon_bg=0x7f020065;
-        public static final int offline_form_row_bg=0x7f02005c;
-        public static final int pending_caf_actions_bg=0x7f02005d;
-        public static final int picker_divider_color=0x7f02005e;
-        public static final int previous_layout_bg=0x7f02005f;
-        public static final int products_row_bg=0x7f020060;
-        public static final int row_products_list_bg=0x7f020061;
-        public static final int search=0x7f020062;
-        public static final int search2=0x7f020063;
-        public static final int shape=0x7f020064;
+        public static final int ic_delete_white_24dp=0x7f020058;
+        public static final int icon_reset=0x7f020059;
+        public static final int icon_start=0x7f02005a;
+        public static final int icon_stop=0x7f02005b;
+        public static final int next_layout_bg=0x7f02005c;
+        public static final int notification_template_icon_bg=0x7f020066;
+        public static final int offline_form_row_bg=0x7f02005d;
+        public static final int pending_caf_actions_bg=0x7f02005e;
+        public static final int picker_divider_color=0x7f02005f;
+        public static final int previous_layout_bg=0x7f020060;
+        public static final int products_row_bg=0x7f020061;
+        public static final int row_products_list_bg=0x7f020062;
+        public static final int search=0x7f020063;
+        public static final int search2=0x7f020064;
+        public static final int shape=0x7f020065;
     }
     public static final class id {
         public static final int ColChk=0x7f0d0196;

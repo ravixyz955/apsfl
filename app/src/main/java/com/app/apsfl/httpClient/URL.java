@@ -20,8 +20,8 @@ class URL {
     public static final String CHECK_SPLITTER_URL = "http://10.8.0.25:8080/coms/checkSlotsAvailability?oltSrlNo=%s&oltPort=%s&portSlotValue=%s";
 
 
-    //        private static final String BASE_URL = "http://172.16.0.48:9090/";
-    private static final String BASE_URL = "http://bss.apsfl.co.in/";//Production
+    private static final String BASE_URL = "http://172.16.0.48:9090/";
+//    private static final String BASE_URL = "http://bss.apsfl.co.in/";//Production
 
     //private static final String BASE_URL1 = "http://192.168.0.112:8080/";
     //private static final String BASE_URL = "http://"+ LoginActivity.ip_address+"/";

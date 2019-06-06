@@ -1,4 +1,4 @@
-#Wed Sep 26 12:52:53 IST 2018
+#Mon Oct 01 15:00:46 IST 2018
 file.2=D\:\\Android Projects\\apsfl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\retrofit-2.3.0_76de01912045c9fd2b1205db936e00c3be3d45d0\\classes.dex
 base.2=D\:\\Android Projects\\apsfl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\retrofit-2.3.0_76de01912045c9fd2b1205db936e00c3be3d45d0
 file.1=D\:\\Android Projects\\apsfl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9838d413aed397f1b6e17773c6c299353dfc326e\\classes.dex

@@ -12,20 +12,20 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\picker_divider_color.xml",
         "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\picker_divider_color.xml"
     },
     {
-        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_reset.png",
-        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\icon_reset.png"
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_reset.png",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\icon_reset.png"
     },
     {
         "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -36,12 +36,12 @@
         "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\custom_switch_track.xml"
     },
     {
-        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\firstscreen.jpg",
-        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\firstscreen.jpg"
-    },
-    {
         "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\682b5fc7a2355ae614b79a77719415089351f5dc\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\firstscreen.jpg",
+        "source": "D:\\Android Projects\\apsfl\\app\\src\\main\\res\\drawable\\firstscreen.jpg"
     },
     {
         "merged": "D:\\Android Projects\\apsfl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",

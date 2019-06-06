@@ -343,7 +343,6 @@ ADDED from D:\Android Projects\apsfl\app\src\main\AndroidManifest.xml:198:9-200:
 		ADDED from D:\Android Projects\apsfl\app\src\main\AndroidManifest.xml:198:19-61
 uses-sdk
 INJECTED from D:\Android Projects\apsfl\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\user\.android\build-cache\05c79ccd9d44a2dbceebd823fc97515c3776d7a4\output\AndroidManifest.xml:18:5-42
 MERGED from [io.realm:realm-android-library:2.0.1] C:\Users\user\.android\build-cache\84d20ca7c985b2fe47e123ce19be5fa6af3ec4fe\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\user\.android\build-cache\43fc88e458368f922a5fa9f03f12766527568338\output\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\user\.android\build-cache\12a903ae3b12624ebfceb224cf9ca8a1d7594dd5\output\AndroidManifest.xml:5:5-7:41
